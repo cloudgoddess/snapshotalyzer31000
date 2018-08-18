@@ -7,8 +7,8 @@ os: linux
 ##    destination: /webapps/myApp
 ##LICENSE		Pipfile		Pipfile.lock	README.md
 files:
-  - source: / 
-    destination: /webapps/scripts
+  - source: ./snapshot
+    destination: /webapps/scripts/
 #  - source: source
 #    destination: /webapps/myApp
 #hooks:
